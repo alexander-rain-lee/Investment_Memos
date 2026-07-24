@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<title>投资备忘录 · AI 驱动药物研发 v4</title>
+<style>
+    @page { size: A4; margin: 18mm 16mm; }
+    * { box-sizing: border-box; }
+    body {
+      font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+      background: #e8e4da;
+      color: #1f1b16;
+      line-height: 1.7;
+      font-size: 10.5pt;
+      margin: 0;
+      padding: 24px;
+    }
+    .page {
+      max-width: 210mm;
+      margin: 0 auto;
+      background: #f7f4ec;
+      padding: 28mm 22mm;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    }
+    .kicker { font-size: 9pt; color: #9a6a2f; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 6px; }
+    h1 { font-family: "Microsoft YaHei", "PingFang SC", "Heiti SC", sans-serif; font-size: 24pt; font-weight: 800; color: #1f1b16; margin: 0 0 10px 0; line-height: 1.2; letter-spacing: -0.01em; }
+    .sub { font-size: 11pt; color: #6b6358; margin-bottom: 18px; }
+    .meta { font-size: 9pt; color: #6b6358; margin-bottom: 22px; }
+    hr.accent { border: none; height: 2px; background: #9a6a2f; margin: 0 0 22px 0; }
+
+    h2 { font-family: "Microsoft YaHei", "PingFang SC", "Heiti SC", sans-serif; font-size: 15pt; font-weight: 700; color: #9a6a2f; margin: 26px 0 10px 0; padding-bottom: 5px; border-bottom: 1px solid #d9d2c2; }
+    h3 { font-size: 11.5pt; color: #1f1b16; margin: 18px 0 8px 0; font-weight: 600; }
+    p { margin: 8px 0; text-align: justify; }
+    ul { margin: 8px 0; padding-left: 20px; }
+    li { margin: 4px 0; }
+
+    .kpis { display: flex; flex-wrap: wrap; gap: 12px; margin: 16px 0; }
+    .kpi { flex: 1 1 140px; background: #fffdfa; border-top: 3px solid #9a6a2f; padding: 14px 14px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+    .kpi .n { font-size: 25px; font-weight: 700; color: #9a6a2f; line-height: 1.1; }
+    .kpi .l { font-size: 10pt; color: #6b6358; margin-top: 6px; line-height: 1.35; }
+
+    table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 9.5pt; }
+    th, td { border: 1px solid #d9d2c2; padding: 7px 9px; text-align: left; vertical-align: middle; }
+    th { background: #f0ebde; font-weight: 600; }
+    tr:nth-child(even) { background: #faf8f3; }
+
+    .note { background: #f0ebde; border-left: 3px solid #9a6a2f; padding: 10px 14px; font-size: 9.5pt; color: #6b6358; margin: 14px 0; }
+    .source { font-size: 9pt; color: #6b6358; margin-top: 4px; }
+    .figure { margin: 16px 0; text-align: center; }
+    .figure img { max-width: 100%; height: auto; border: 1px solid #d9d2c2; background: #fff; }
+    .caption { font-size: 9pt; color: #6b6358; margin-top: 6px; }
+    .caption-source { text-align: right; font-size: 8.5pt; color: #8a8072; }
+    .caption-title { text-align: center; margin-top: 4px; }
+
+    .end { font-size: 9pt; color: #6b6358; text-align: center; margin-top: 30px; padding-top: 14px; border-top: 1px solid #d9d2c2; }
+  </style>
+</head>
+<body>
+<div class="page">
+<div class="kicker">Investment Memo · Confidential</div>
+<h1>AI 驱动药物研发</h1>
+<div class="sub">“双十定律”的破局者与临床拐点，覆盖平台型 TechBio、差异化细分、早期平台三条主线</div>
+<div class="meta">2026 年 7 月 · 李雨润</div>
+<hr class="accent"/>
+<h2>一、执行摘要</h2>
+<p>传统创新药受“双十定律”桎梏（10 年、20 亿美元、成功率不足 10%），研发回报率从 2010 年 10.1% 降至 2024 年 5.9%。AI 正以“提升效率 + 提升临床成功率”双重逻辑重构研发范式，2026 年被业界视为<strong>越过概念验证、临床数据读出最密集的拐点年</strong>。<strong>核心投资逻辑：</strong>不投纯算法工具与无临床验证的概念，而投具备<strong>干湿闭环实验室 + 私域数据飞轮 + 至少 1–2 条临床管线</strong>的平台型 TechBio；壁垒正从“算法”转向“数据资产”。</p>
+<div class="kpis">
+<div class="kpi"><div class="n">51 亿$</div><div class="l">2026 全球 AI 制药市场（→2033 138 亿，CAGR 24.8%）</div></div>
+<div class="kpi"><div class="n">12–18 月</div><div class="l">英矽早期发现周期（行业平均 4.5 年）</div></div>
+<div class="kpi"><div class="n">170+ 条</div><div class="l">全球 AI 设计药物进入临床（2026H1）</div></div>
+<div class="kpi"><div class="n">三小龙</div><div class="l">晶泰 / 英矽 / 剂泰齐聚港股</div></div>
+</div>
+<h2>二、赛道定义与边界</h2>
+<p>本备忘录所讨论的“AI 制药（TechBio）”指用 AI 重构靶点发现、分子生成、制剂递送、临床设计的创新药研发。覆盖范围包括：</p>
+<ul>
+<li><b>平台型 TechBio</b>：自建湿实验室形成“模型假设 → 实验验证 → 数据反哺”飞轮；</li>
+<li><b>差异化细分</b>：小分子、AI+机器人、纳米递送等形成技术唯一性的方向；</li>
+<li><b>早期平台</b>：AI 大分子、药物重定位、药/材料/能源跨域平台。</li>
+</ul>
+
+<p class="note"><b>边界：</b>区别于医疗大模型与 C 端问诊产品，本备忘录聚焦「药物研发范式」这一 To B / To 药企的高壁垒赛道。</p>
+
+<h2>三、市场规模与驱动力</h2>
+<div class="kpis">
+<div class="kpi"><div class="n">CAGR 24.8%</div><div class="l">2024–2033 全球 AI 制药市场复合增速</div></div>
+<div class="kpi"><div class="n">3×</div><div class="l">AI 早期发现周期提速（vs 行业 4.5 年）</div></div>
+<div class="kpi"><div class="n">9–18%</div><div class="l">BCG 估算 AI 整体临床成功率（传统 5–10%）</div></div>
+<div class="kpi"><div class="n">997 亿$</div><div class="l">2026H1 中国创新药 BD（≈ 2025 全年 73%）</div></div>
+</div>
+<h3>3.1 市场规模进入高速增长期</h3>
+<p>据弗若斯特沙利文，全球 AI 制药市场规模 2024 年约 31 亿美元，预计 2033 年达 138 亿美元，2024–2033 年复合增速约 24.8%。增长由“效率提升 + 成功率改善”双引擎驱动，且尚未计入 BD 首付款与里程碑的潜在价值释放。</p>
+<div class="figure">
+<img alt="全球 AI 制药市场规模" src="assets/pharma_market.png"/>
+<div class="caption">
+<div class="caption-source">数据来源：弗若斯特沙利文、行业综合</div>
+<div class="caption-title">图 1：全球 AI 制药市场规模及预测（2024–2033）</div>
+</div>
+</div>
+<h3>3.2 研发周期被显著压缩</h3>
+<p>AI 将临床前周期压缩 30–50%、成本降低 40%+。以英矽智能为例，早期发现周期约 12–18 个月，而行业平均约 4.5 年，提速约 3×。这是平台型 TechBio 相较传统 Biotech 最直观的效率优势。</p>
+<div class="figure">
+<img alt="研发各阶段耗时对比" src="assets/pharma_timeline.png"/>
+<div class="caption">
+<div class="caption-source">数据来源：BCG，2024</div>
+<div class="caption-title">图 2：传统 vs AI 辅助药物发现各阶段耗时对比</div>
+</div>
+</div>
+<h3>3.3 临床成功率改善是分水岭</h3>
+<p>AI 生成分子的 I 期成功率可达 80–90%（传统 40–65%）；BCG 估算 AI 有望将整体临床成功率从 5–10% 提至 9–18%。但须注意：I 期 ≠ 上市，真正分水岭在 II/III 期与获批。</p>
+<div class="figure">
+<img alt="临床转化率对比" src="assets/pharma_success_rate.png"/>
+<div class="caption">
+<div class="caption-source">数据来源：BCG，2024</div>
+<div class="caption-title">图 3：传统 vs AI 辅助研发临床阶段转化率对比</div>
+</div>
+</div>
+<h2>四、产业链与价值分布</h2>
+<table>
+<tr><th>环节</th><th>构成</th><th>价值判断</th></tr>
+<tr><td>数据/算力</td><td>多组学库、蛋白模型、自动化实验室</td><td><b>核心护城河（私域数据闭环）</b></td></tr>
+<tr><td>研发平台</td><td>靶点/分子/递送/临床预测</td><td>平台叙事退潮，看临床 + BD 兑现</td></tr>
+<tr><td>管线</td><td>自研候选药物</td><td>估值逻辑接近 Biotech，看阶段与权益</td></tr>
+<tr><td>药企/CXO</td><td>MNC、CDMO</td><td>买方与合作伙伴，验证需求</td></tr>
+</table>
+<p class="note">价值分布结论：数据/算力是核心壁垒，私域数据闭环不可复制；平台叙事退潮后，估值锚从“平台能力”转向“临床读出 + BD 结构”。</p>
+<h2>五、投资逻辑与核心主题</h2>
+<p>本备忘录采用<strong>“干湿闭环”框架</strong>：以“数据飞轮 × 临床验证”为主轴；纯算法工具（无数据闭环、无管线）不作为拟投标的。</p>
+<h3>主线 A：平台型 TechBio（干湿闭环）</h3>
+<p>自建湿实验室形成“模型假设 → 实验验证 → 数据反哺”飞轮（如 Recursion），私域数据是不可复制的壁垒。关注点：数据规模与迭代速度、客户是否持续付费、是否至少 1–2 条管线进临床。</p>
+<h3>主线 B：差异化细分赛道</h3>
+<p>小分子（英矽）、AI+机器人（晶泰）、纳米递送（剂泰）已形成差异化；递送是“大分子时代命门”，壁垒高。关注点：技术唯一性、管线阶段、BD 首付款质量。</p>
+<h3>主线 C：早期平台（北京机会）</h3>
+<p>水木分子（清华，AI 大分子）、亿药（AI 药物重定位）、深势（药/材料/能源平台）处早期，估值低、北京密集，是战投“早布局”窗口。关注点：团队来源、数据资产、与已上市三小龙的差异化。</p>
+<h2>六、代表标的与利弊分析</h2>
+<table>
+<tr><th>标的</th><th>主线</th><th>核心逻辑</th><th>主要股东/战投</th><th>利好</th><th>利空·风险</th><th>状态</th></tr>
+<tr><td><b>剂泰科技</b></td><td>B</td><td>全球 AI 递送第一股（07666.HK）、NanoForge 千万级脂质库</td><td>红杉（5 轮）、北京市医药健康基金（大兴投资）D 轮</td><td>递送是大分子时代命门、壁垒高、北京大兴</td><td>商业化兑现节奏不确定、上市后仍亏损股价波动</td><td>首选</td></tr>
+<tr><td><b>水木分子</b></td><td>C</td><td>清华系、AI 大分子差异化、估值低</td><td>清华系、北京国资、早期机构</td><td>差异化、早期布局窗口</td><td>极早期、无临床管线验证、与大模型药物发现竞争激烈</td><td>关注（早期）</td></tr>
+<tr><td><b>亿药科技</b></td><td>C</td><td>AI 药物重定位（老药新用），成本低</td><td>早期机构、北京背景</td><td>重定位路径短、北京密集</td><td>天花板有限、极早期、数据资产待验证</td><td>关注（早期）</td></tr>
+<tr><td><b>英矽智能</b></td><td>A</td><td>Pharma.AI 平台、10 款进临床冲刺 III 期</td><td>礼来、腾讯（基石）、淡马锡</td><td>BD 爆发（礼来 27.5 亿美元）、管线最靠前</td><td>仍亏损、全自主 AI 药尚未获批、股价波动大</td><td>标杆</td></tr>
+<tr><td><b>晶泰科技</b></td><td>B</td><td>AI+机器人实验室，2025 盈利 2.58 亿</td><td>腾讯生态、多家机构</td><td>商业化标杆、盈利可见</td><td>盈利质量（依赖 CDMO/服务费）待验证、平台叙事退潮</td><td>标杆</td></tr>
+</table>
+<p class="note">“首选”指当前阶段赔率与确定性相对占优的标的，不构成投资建议。所有估值与财务数据须以最新招股书、Wind 及公司公告为准。</p>
+<h2>七、关键指标测算</h2>
+<h3>7.1 双十定律的 ROI 量化（范式是否成立）</h3>
+<p>传统研发 10 年 / 20 亿美元 / 成功率不足 10%；AI 将临床前压缩 30–50%、成本降 40%+，早期发现提速约 3×；BCG 估算整体成功率 5–10% → 9–18%（上限近翻倍）。单项目期望回报上升、组合风险下降，平台型 TechBio 的 rNPV 改善。但须注意：提速主要发生在早期，III 期后边际递减。</p>
+<table>
+<tr><th>指标</th><th>传统</th><th>AI 辅助</th><th>改善</th><th>测算依据</th></tr>
+<tr><td>早期发现周期</td><td>~4.5 年</td><td>12–18 月</td><td>约 3×</td><td>英矽智能等披露</td></tr>
+<tr><td>整体临床成功率</td><td>5–10%</td><td>9–18%</td><td>上限近翻倍</td><td>BCG，2024</td></tr>
+<tr><td>I 期成功率</td><td>40–65%</td><td>80–90%</td><td>显著提升</td><td>BCG，2024</td></tr>
+</table>
+<h3>7.2 成功率口径陷阱（盯 II/III 期而非 I 期）</h3>
+<p>AI 生成分子 I 期成功率高，但 I 期 ≠ 上市；真正分水岭在 II/III 期与获批，目前<strong>全球尚无完全 AI 全流程药物获批</strong>。数据科学要跟踪 II/III 期读出，而非被 I 期高成功率迷惑。同时用 BD 结构判断收入质量：首付款（真金白银）vs 里程碑（或有）vs 权益保留（上行）。</p>
+<h2>八、估值分析</h2>
+<p>本赛道估值高度依赖“临床读出 + BD”叙事，以下倍数为基于公开信息的<strong>示意框架</strong>，原因有三：其一，多数 AI 制药企业仍亏损、营收小，无稳定盈利锚，DCF 难以直接适用；其二，港股 18C 上市标的市值受临床情绪与 BD 消息驱动，波动大；其三，海外可比（Recursion 等）同样多未盈利，估值含 AI 叙事与流动性溢价，直接对标只能给区间。正式估值须以最新招股书、Wind 及 rNPV/DCF 交叉校准。</p>
+<table>
+<tr><th>细分领域</th><th>代表标的</th><th>估值方法</th><th>2026E 倍数</th><th>海外可比</th><th>估值判断</th></tr>
+<tr><td>AI 递送平台</td><td>剂泰科技</td><td>PS + rNPV（管线）</td><td>PS 10–20×</td><td>/</td><td>看 BD 与管线兑现，部分倒挂</td></tr>
+<tr><td>平台型 TechBio</td><td>英矽智能</td><td>rNPV（管线组合）</td><td>估值数百亿港元</td><td>Recursion PS 8–12×</td><td>高 PS，待 III 期验证</td></tr>
+<tr><td>AI+机器人/CXO</td><td>晶泰科技</td><td>PE + PS</td><td>PE 30–50×</td><td>/</td><td>盈利可见，相对扎实</td></tr>
+</table>
+<p class="note">估值结论：已盈利 CXO（晶泰类）或有 BD 首付款的平台抗跌；纯算法无管线公司天花板低、倒挂最甚。</p>
+<h2>九、情景分析</h2>
+<table>
+<tr><th>情景</th><th>概率</th><th>关键触发</th><th>估值影响</th></tr>
+<tr><td><b>Bull</b></td><td>25%</td><td>2026H2 出现首个 AI 全流程药物 II/III 期阳性、BD 首付款放量</td><td>板块重估，三小龙领跑</td></tr>
+<tr><td><b>Base</b></td><td>50%</td><td>部分管线推进、BD 持续但无重大突破</td><td>分化，真飞轮公司溢价比</td></tr>
+<tr><td><b>Bear</b></td><td>25%</td><td>临床读出不及预期、无任何 AI 药获批、资本退潮</td><td>高 PS 平台股回撤，仅盈利 CXO 抗跌</td></tr>
+</table>
+<h2>十、海外对标与地缘敏感度</h2>
+<h3>10.1 海外对标</h3>
+<table>
+<tr><th>维度</th><th>海外代表</th><th>国产对标</th><th>关键差距 / 启示</th></tr>
+<tr><td>平台型 TechBio</td><td>Recursion（NASDAQ: RXRX）、Relay、Schrödinger、Isomorphic Labs</td><td>晶泰、英矽、剂泰、水木分子</td><td>海外已上市且多条临床管线；中国以“递送/晶型/自动化实验”细分切入</td></tr>
+<tr><td>BD 主战场</td><td>与 MNC（Pfizer、BMS、Sanofi）大额 BD</td><td>开始对接 MNC，体量偏小</td><td>海外 BD 首付款 + 里程碑更大，验证平台价值</td></tr>
+<tr><td>监管口径</td><td>FDA 2024 发布 AI/ML 药物开发草案</td><td>NMPA 2025 AI 医疗器械规则</td><td>双向规则均处早期，AI 药审评尚无全球统一标准</td></tr>
+</table>
+<h3>10.2 地缘敏感度（风险等级：中 — 监管与 BD 渠道为主）</h3>
+<ul>
+<li><b>Biosecure Act（2024–2025）：</b>美法案针对中国 CRO/CDMO（如药明系），AI 制药多为平台型、直接冲击有限，但抬高与美 MNC 的 BD 摩擦成本。</li>
+<li><b>数据主权：</b>患者基因组/临床数据跨境受《数据安全法》《个人信息保护法》约束，跨国产学研数据闭环受限。</li>
+<li><b>人才与资本流动：</b>美对华生物科技投资受 CFIUS/FIRRMA 审查趋严；海归人才是本土平台关键资产。</li>
+<li><b>反向变量：</b>中国患者基数与临床入组速度全球领先，是 AI 制药真实世界数据的结构性优势；港股 18C 为未盈利硬科技提供上市通道。</li>
+</ul>
+<h2>十一、结论与配置建议</h2>
+<p>AI 制药是 2026 临床拐点赛道，应投“干湿闭环 + 数据飞轮 + 临床管线”的平台，规避纯算法与无验证概念；港股 18C 提供最优资本路径。递送（剂泰类）因是大分子时代命门、壁垒高，是平台首选。</p>
+<p>建议研究优先级与项目跟投策略（一级市场股权投资视角）：</p>
+<ul>
+<li><b>优先覆盖（60% 精力与 check size）</b>：具干湿闭环 + 临床管线的平台（剂泰为首选，英矽/晶泰作为已上市映射）。收入可见、退出路径清晰（港股 18C/产业并购），适合作为深度尽调与跟投主线；</li>
+<li><b>重点跟踪（30%）</b>：递送/大分子等差异化细分中接近临床读出或 BD 兑现的标的。叙事强但估值对临床结果敏感，须以 II/III 期读出与 BD 首付款结构为入场 gate；</li>
+<li><b>早期储备（10%）</b>：水木分子、亿药、深势等早期平台保持 mapping，锁定 option 价值，等待数据飞轮被临床验证后再下注。</li>
+</ul>
+<p class="note">下一步跟踪：头部标的 II/III 期临床读出、BD 首付款到账验证收入质量、港股 18C 新上市与破发情况。</p>
+<h2>附录：数据来源</h2>
+<table>
+<tr><th>数据/观点</th><th>来源</th></tr>
+<tr><td>全球 AI 制药市场规模</td><td>弗若斯特沙利文，2024–2033 预测</td></tr>
+<tr><td>研发周期与成功率</td><td>BCG，2024；英矽智能等公司披露</td></tr>
+<tr><td>中国创新药 BD 金额</td><td>医药魔方、公司公告，2026H1</td></tr>
+<tr><td>海外对标平台</td><td>NASDAQ、Crunchbase、媒体披露</td></tr>
+<tr><td>估值倍数</td><td>Wind、公司招股书、Bloomberg，截至 2026.07</td></tr>
+</table>
+<p class="note">本备忘录为学习/研究用途的框架性文件，所有数据均来自公开资料整理，不构成任何投资建议。估值倍数、市场规模为示意口径，正式分析须以实时数据及原始来源核实。</p>
+<div class="end">2026 年 7 月 · 李雨润</div>
+</div>
+</body>
+</html>
