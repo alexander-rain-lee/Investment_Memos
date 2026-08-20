@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<title>投资备忘录 · AIGC 与数字文化消费 v4</title>
+<style>
+    @page { size: A4; margin: 18mm 16mm; }
+    * { box-sizing: border-box; }
+    body {
+      font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+      background: #e8e4da;
+      color: #1f1b16;
+      line-height: 1.7;
+      font-size: 10.5pt;
+      margin: 0;
+      padding: 24px;
+    }
+    .page {
+      max-width: 210mm;
+      margin: 0 auto;
+      background: #f7f4ec;
+      padding: 28mm 22mm;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    }
+    .kicker { font-size: 9pt; color: #9a6a2f; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 6px; }
+    h1 { font-family: "Microsoft YaHei", "PingFang SC", "Heiti SC", sans-serif; font-size: 24pt; font-weight: 800; color: #1f1b16; margin: 0 0 10px 0; line-height: 1.2; letter-spacing: -0.01em; }
+    .sub { font-size: 11pt; color: #6b6358; margin-bottom: 18px; }
+    .meta { font-size: 9pt; color: #6b6358; margin-bottom: 22px; }
+    hr.accent { border: none; height: 2px; background: #9a6a2f; margin: 0 0 22px 0; }
+
+    h2 { font-family: "Microsoft YaHei", "PingFang SC", "Heiti SC", sans-serif; font-size: 15pt; font-weight: 700; color: #9a6a2f; margin: 26px 0 10px 0; padding-bottom: 5px; border-bottom: 1px solid #d9d2c2; }
+    h3 { font-size: 11.5pt; color: #1f1b16; margin: 18px 0 8px 0; font-weight: 600; }
+    p { margin: 8px 0; text-align: justify; }
+    ul { margin: 8px 0; padding-left: 20px; }
+    li { margin: 4px 0; }
+
+    .kpis { display: flex; flex-wrap: wrap; gap: 12px; margin: 16px 0; }
+    .kpi { flex: 1 1 140px; background: #fffdfa; border-top: 3px solid #9a6a2f; padding: 14px 14px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+    .kpi .n { font-size: 25px; font-weight: 700; color: #9a6a2f; line-height: 1.1; }
+    .kpi .l { font-size: 10pt; color: #6b6358; margin-top: 6px; line-height: 1.35; }
+
+    table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 9.5pt; }
+    th, td { border: 1px solid #d9d2c2; padding: 7px 9px; text-align: left; vertical-align: middle; }
+    th { background: #f0ebde; font-weight: 600; }
+    tr:nth-child(even) { background: #faf8f3; }
+
+    .note { background: #f0ebde; border-left: 3px solid #9a6a2f; padding: 10px 14px; font-size: 9.5pt; color: #6b6358; margin: 14px 0; }
+    .source { font-size: 9pt; color: #6b6358; margin-top: 4px; }
+    .figure { margin: 16px 0; text-align: center; }
+    .figure img { max-width: 100%; height: auto; border: 1px solid #d9d2c2; background: #fff; }
+    .caption { font-size: 9pt; color: #6b6358; margin-top: 6px; }
+    .caption-source { text-align: right; font-size: 8.5pt; color: #8a8072; }
+    .caption-title { text-align: center; margin-top: 4px; }
+
+    .end { font-size: 9pt; color: #6b6358; text-align: center; margin-top: 30px; padding-top: 14px; border-top: 1px solid #d9d2c2; }
+  </style>
+</head>
+<body>
+<div class="page">
+<div class="kicker">Investment Memo</div>
+<h1>AIGC 与数字文化消费</h1>
+<div class="sub">AI 原生内容与数字 IP 的投资逻辑</div>
+<div class="meta">2026 年 7 月 · 李雨润</div>
+<hr class="accent"/>
+<h2>一、执行摘要</h2>
+<p>AIGC 正从“生产率工具”迈向“内容生产范式”，数字文化消费（AI 原生内容、数字人/IP、互动叙事）是离 C 端变现最近、也最契合“科技 × 消费 × 文化”复合判断的切口。本备忘录的核心 thesis 采用 <b>B+C 双核</b>：以 <b>应用层（B：AI 短剧 / 精品内容）</b> 与 <b>工具层（C：AI 3D 创意工具）</b> 为两条主线，覆盖“内容生产链路重构”；底层视频模型（A）与 AI 音乐（D）因 ROI 与版权困境，不作为拟投标的，仅作反向论证（见六、九）。</p>
+<p>在底层模型能力趋同、红利向应用层与工具层迁移的背景下，具备 <b>数据闭环</b> 与 <b>版权合规</b> 能力的团队将获得溢价。对 CVC/战投而言，这是布局“下一代文化消费入口”的战略窗口，但也需警惕主题热度退潮后的估值回调。</p>
+<div class="kpis">
+<div class="kpi"><div class="n">95%</div><div class="l">微短剧 AI 生成渗透率（2026 Q1，12.2/12.8 万部）</div></div>
+<div class="kpi"><div class="n">323 亿$</div><div class="l">全球 AI 3D 创意工具市场（2026E，CAGR≈30%）</div></div>
+<div class="kpi"><div class="n">+25.5%</div><div class="l">A 股 AIGC 板块 2025 全年涨幅</div></div>
+<div class="kpi"><div class="n">−17.5%</div><div class="l">A 股 AIGC 板块 2026 YTD 回撤（挤水分）</div></div>
+</div>
+<h2>二、赛道定义与边界</h2>
+<ul>
+<li><b>AI 原生内容</b>：由 AI 参与生成的文本 / 图像 / 音视频 / 3D / 互动内容。</li>
+<li><b>数字 IP / 数字人</b>：可被运营、跨场景复用的虚拟资产与人格。</li>
+<li><b>数字文化消费</b>：上述内容的 C 端消费（订阅、互动、沉浸、虚实融合）。</li>
+</ul>
+
+<p class="note"><b>边界：</b>区别于纯算力 / 模型（基础设施层）与纯 SaaS 工具（生产率），本备忘录聚焦「内容 × 消费」应用层与 IP 层——这也是大厂自带流量、但垂类仍存空白的地带。</p>
+
+<h2>三、市场规模与驱动力</h2>
+<p>需求侧，技术拐点（多模态成熟、推理成本下降）使规模化 AIGC 内容具备经济性；消费代际上，Z/α 世代对 AI 原生内容的接受度与付费意愿提升；政策端“文化数字化战略”与“AI 内容标识合规”并行推进。供给侧，微短剧已成为 AI 内容最大的工业化试验场：</p>
+<div class="figure">
+<img alt="微短剧 AI 渗透率" src="assets/cul_shortdrama_ai.png"/>
+<div class="caption">
+<div class="caption-source">数据来源：广电总局 / 行业统计</div>
+<div class="caption-title">图 1：微短剧 AI 生成渗透率（2026 Q1）</div>
+</div>
+</div>
+<p>工具层方面，3D 资产是游戏 / 电商 / 影视 / 打印的通用生产要素，AI 把建模门槛降到消费级，市场处于高速扩张期：</p>
+<div class="figure">
+<img alt="AI 3D 工具市场" src="assets/cul_3d_market.png"/>
+<div class="caption">
+<div class="caption-source">数据来源：行业研究综合（CAGR≈30%）</div>
+<div class="caption-title">图 2：全球 AI 3D 创意工具市场规模及预测（2024–2030E）</div>
+</div>
+</div>
+<p>但资本层面，主题热度已在退潮。A 股 AIGC 板块 2025 全年上涨 25.5%，2026 年初至 7 月回落 17.5%、文化传媒回落 15.6%——估值挤水分、进入“看真实变现”阶段，恰是基本面研究者的机会窗口：</p>
+<div class="figure">
+<img alt="A股板块表现" src="assets/cul_a_share_perf.png"/>
+<div class="caption">
+<div class="caption-source">数据来源：东方财富 / Wind</div>
+<div class="caption-title">图 3：A 股 AIGC 与文化传媒板块表现（2025 全年 vs 2026 YTD）</div>
+</div>
+</div>
+<h2>四、产业链与价值分布</h2>
+<table>
+<tr><th>环节</th><th>构成</th><th>价值判断</th></tr>
+<tr><td>上游</td><td>基础模型、算力、版权语料</td><td>商品化加速，壁垒弱化</td></tr>
+<tr><td>中游</td><td>创作工具 / 平台（生成、编辑、协作）</td><td>短期拥挤，需垂直差异化</td></tr>
+<tr><td>下游</td><td>分发、消费、社区</td><td>流量归大厂，垂类可破</td></tr>
+<tr><td>衍生</td><td>IP 运营、版权、虚实融合</td><td><b>中长期价值集中地</b></td></tr>
+</table>
+<h2>五、投资逻辑与核心主题</h2>
+<p>本备忘录以“AI 重构数字文化内容的生产链路”为主线，覆盖应用层与工具层两条相邻赛道。主线 A（底层视频模型）与主线 D（AI 音乐）不作为拟投标的，仅作反向论证（见六、九）。</p>
+<h3>主线 B：应用层——AI 短剧 / 精品内容</h3>
+<ul>
+<li>逻辑：2026 Q1 上线微短剧 12.8 万部，其中 AI 占 12.2 万（95%）；监管倒逼“只能精品化”，精品 AI 内容从成本与产能两端重构影视 / 短剧工业。</li>
+<li>关注点：内容工业化能力、IP 化能力、与分发渠道（红果 / 抖音）的协同。</li>
+</ul>
+<h3>主线 C：工具层——AI 3D 创意工具</h3>
+<ul>
+<li>逻辑：3D 资产是游戏 / 电商 / 影视 / 打印的通用生产要素，AI 把建模门槛降到消费级；市场 2026 预计 323 亿美元、CAGR 30%+。</li>
+<li>关注点：生产级可控性、跨工业管线（Unity / Unreal / Canva）、海外收入占比。</li>
+</ul>
+<h2>六、代表标的与利弊分析</h2>
+<table>
+<tr><th>标的</th><th>赛道</th><th>利好（投资逻辑）</th><th>利空 · 风险</th><th>主要股东 / 战投</th><th>状态</th></tr>
+<tr><td><b>影眸科技 Hyper3D / Rodin</b></td><td>C 工具层</td><td>生产级 3D，客户含字节 / Unity / Figma / Canva，海外占 80%，技术壁垒清晰</td><td>高估值、与通用大模型内置 3D 能力竞争、海外合规成本</td><td>红杉、奇绩创坛等；客户含字节系</td><td>拟投关注（首选）</td></tr>
+<tr><td><b>VAST / Tripo</b></td><td>C 工具层</td><td>轻量化 3D，阿里领投 A3 轮超 10 亿，游戏 / 3D 打印场景落地</td><td>与影眸同质化竞争、商业化节奏待验证</td><td>阿里巴巴（领投）</td><td>已投（阿里）关注</td></tr>
+<tr><td><b>水母智能</b></td><td>B 应用层</td><td>精品 AI 短剧《天机入梦》入围戛纳、红果上线，证明应用层可商业化</td><td>单部爆款难复制、依赖平台流量分配</td><td>产业方为主</td><td>拟投关注</td></tr>
+<tr><td><b>八点八数字 AniShort</b></td><td>B 应用层</td><td>AI 短剧协作平台，近亿元融资为赛道最大单笔，卡位生产工具</td><td>平台型变现路径长、与剪辑工具边界模糊</td><td>多家财务投资人</td><td>拟投关注</td></tr>
+<tr><td>生数科技 Vidu</td><td>A 模型层</td><td>视频模型（清华系，赴港），懂底座但不盲投</td><td>视频模型 ROI / 版权 / 烧钱困境</td><td>启明、经纬等</td><td>反向论证</td></tr>
+<tr><td>昆仑万维 Mureka</td><td>D 音乐</td><td>AI 音乐毛利转正、90% 海外，能识别泡沫</td><td>占平台新增投稿 44% 但播放不足 3%，版权死结</td><td>昆仑万维（自有）</td><td>反向论证</td></tr>
+</table>
+<p class="note"><b>反向论证（A / D 为何不作为拟投标的）：</b>视频模型层 Sora 已于 2026.3 关停，行业陷 ROI / 版权 / 烧钱困境；AI 音乐占平台新增投稿 44% 但播放不足 3%，“虚假繁荣”+ 版权死结短期无解。此二者是面腾讯 / 字节战投必须懂、但 memo 中应规避的坑。</p>
+<h2>七、关键指标测算</h2>
+<h3>7.1 微短剧 AI 渗透率测算</h3>
+<p>以 2026 Q1 上线微短剧 12.8 万部、其中 AI 生成 12.2 万部计，渗透率 = 12.2 / 12.8 ≈ 95%。该比值反映 AI 已成为短剧生产的默认基础设施，但高渗透率同时意味着“纯 AI 产能”红利见顶，超额收益将来自精品化与 IP 化（即主线 B 的筛选逻辑）。</p>
+<h3>7.2 AI 3D 工具市场 CAGR 测算</h3>
+<p>以 2026E 323 亿美元为锚，按 30% 复合增速外推，2030 年市场约 923 亿美元（图 2）。关键假设：游戏 / 电商 3D 资产需求持续扩张、消费级建模工具渗透提速；若宏观经济或游戏版号收紧，增速下修至 20%–25%。</p>
+<h3>7.3 板块回调幅度测算</h3>
+<p>AIGC 板块 2025 全年 +25.5%、2026 YTD −17.5%，回撤幅度约 43 个百分点（相对 2025 收盘）；文化传媒 −15.6%。说明主题资金退潮、估值向基本面收敛，拟投标的的 entry valuation 应参照 2026 年回调后的可比区间，而非 2025 年高点。</p>
+<h2>八、估值分析</h2>
+<p>本赛道标的估值分化显著：工具层（3D）因技术壁垒与海外收入享受高 PS 倍数，应用层（精品内容）因爆款不确定性估值更难锚定。以下倍数均为基于公开信息的示意框架，正式估值须以最新融资条款、财报及 Wind 校准。采用“示意框架”的原因：一级市场标的无连续交易价，last round 估值受融资窗口与对赌条款影响大；文娱资产现金流受内容周期与政策扰动显著，静态 PS/PE 易失真；海外可比（Unity / Roblox / Netflix）含全球流动性与平台溢价，直接对标仅能给区间。</p>
+<table>
+<tr><th>标的</th><th>最新轮次估值（示意）</th><th>参考倍数</th><th>海外可比</th><th>估值判断</th></tr>
+<tr><td>影眸科技</td><td>约 30–50 亿元</td><td>PS 15–25×（按 2026E 收入）</td><td>Unity / Roblox</td><td>偏高但技术壁垒支撑，关注收入兑现</td></tr>
+<tr><td>VAST / Tripo</td><td>约 40–60 亿元</td><td>PS 12–20×</td><td>Unity</td><td>与影眸趋同，看 A3 轮后增长</td></tr>
+<tr><td>水母智能</td><td>未公开（早期）</td><td>难以倍数锚定</td><td>独立内容工作室</td><td>看单部 ROI 与平台绑定深度</td></tr>
+<tr><td>八点八数字</td><td>约 5–8 亿元（近亿元融资）</td><td>PS / 用户数混合</td><td>创作平台</td><td>平台化路径决定上限</td></tr>
+</table>
+<h2>九、情景分析</h2>
+<table>
+<tr><th>情景</th><th>概率</th><th>关键触发</th><th>对组合影响</th></tr>
+<tr><td><b>Bull</b></td><td>25%</td><td>精品 AI 短剧跑出国民级 IP；3D 工具海外收入翻倍；监管明确合规指引</td><td>工具层估值重估，应用层从 0 到 1 兑现</td></tr>
+<tr><td><b>Base</b></td><td>50%</td><td>渗透率维持高位、精品化分化；3D 市场按 CAGR 30% 兑现；板块低位震荡</td><td>结构性机会，精选有 IP / 数据闭环的标的</td></tr>
+<tr><td><b>Bear</b></td><td>25%</td><td>监管收紧短剧供给；大厂免费内置 3D/视频能力挤压创业公司；版权诉讼频发</td><td>应用层大面积出清，工具层估值压缩 30%+</td></tr>
+</table>
+<h2>十、海外对标与地缘敏感度</h2>
+<ul>
+<li><b>海外锚</b>：Runway / Pika（视频生成）、Adobe Firefly（创意套件）、Unity / Roblox（3D 与 UGC 平台）、Midjourney（图像）。其估值与产品节奏是本土对标的外部分水岭。</li>
+<li><b>地缘评级：中</b>。内容审核与版权跨境是主要变量，但文化消费不在出口管制核心清单，受制裁直接冲击小；反向优势是中国短视频 / 微短剧生态全球最成熟，本土公司的数据与场景厚度优于海外同行。</li>
+<li><b>风险点</b>：海外市场的内容合规（如 App Store 政策）、跨境版权确权，是工具层“出海 80%”标的的隐性成本。</li>
+</ul>
+<h2>十一、结论与配置建议</h2>
+<p>对 CVC / 战投，本赛道宜以“研究优先级与项目跟投策略（一级市场股权投资视角）”切入：</p>
+<ul>
+<li><b>优先覆盖 60%</b>：应用层具备 IP 运营能力 + 数据闭环的标的（水母智能、八点八数字），以战略协同（内容生态、流量）而非纯财务回报评估；</li>
+<li><b>重点跟踪 30%</b>：工具层 AI 3D 创意（影眸、VAST），技术壁垒清晰、海外收入可见，但估值偏高，宜在收入兑现节点小仓位跟投；</li>
+<li><b>早期储备 10%</b>：底层视频模型 / AI 音乐仅作能力跟踪与反向论证，不急于下注，等待 ROI 与版权路径清晰。</li>
+</ul>
+<p>进入姿势：早期占坑 + 生态赋能；关注被大厂忽视的垂类（文化消费细分、教育 / 文旅融合）。</p>
+<h2>附录：数据来源</h2>
+<table>
+<tr><th>数据/观点</th><th>来源</th></tr>
+<tr><td>微短剧上线与 AI 渗透率</td><td>广电总局 / 行业统计（2026 Q1）</td></tr>
+<tr><td>AI 3D 创意工具市场规模</td><td>行业研究综合，CAGR≈30%（2026E 约 323 亿美元）</td></tr>
+<tr><td>A 股板块表现</td><td>东方财富 / Wind（截至 2026-07-23）</td></tr>
+<tr><td>代表标的与融资</td><td>公开报道、公司公告、IT 桔子 / 企查查整理</td></tr>
+<tr><td>海外对标</td><td>公司招股书、公开财报及行业研究</td></tr>
+</table>
+<p class="note">本报告所有规模 / 融资 / 倍数数据均来自 2026 年公开来源整理，部分为基于公开信息的示意框架，不构成投资建议；正式决策须以最新招股书、Wind 及公司公告核实并标注来源。</p>
+<div class="end">2026 年 7 月 · 李雨润</div>
+</div>
+</body>
+</html>
